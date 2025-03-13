@@ -7,6 +7,7 @@ pipeline {
                 script {
                     echo 'Building C++ Project...'
                     sh 'g++ -o PES2UG22CS919-1 main.cpp'  // Replace with your actual file
+                    sh 'fsunuer'
                 }
             }
         }
